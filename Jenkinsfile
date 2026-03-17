@@ -5,7 +5,7 @@ stages {
 
 stage('Clone Repo') {
 steps {
-git branch 'main', url 'https://github.com/Arunasri-0096/sisters.git'
+git branch: 'main', url: 'https://github.com/Arunasri-0096/sisters.git'
 }
 }
 
